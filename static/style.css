@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.task-card {
+    transition: all 0.3s ease;
+    border-left: 4px solid #007bff;
+}
+
+.task-card.completed {
+    border-left-color: #28a745;
+    background-color: #f8fff8;
+}
+
+.task-card.completed .card-title {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.status-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    margin-right: 0.5rem;
+}
+
+.task-actions {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
